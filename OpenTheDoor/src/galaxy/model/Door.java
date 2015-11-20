@@ -9,6 +9,7 @@ public class Door {
 	public Door(int num, boolean car) {
 
 		this.intNum = num;
+		
 		this.isCar = car;
 
 	}
