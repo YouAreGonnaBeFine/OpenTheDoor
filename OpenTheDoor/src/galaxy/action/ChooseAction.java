@@ -26,6 +26,8 @@ public class ChooseAction {
 		int wrong = 0;
 
 		int sum = 100000;
+		
+		int doors = 3;
 
 		int open = 1;
 
@@ -38,7 +40,7 @@ public class ChooseAction {
 
 		for (int i = 0; i < sum; i++) {
 
-			doorList = cctvShow.getDoorList(3);
+			doorList = cctvShow.getDoorList(doors);
 
 			Door door = player.insistChosen(doorList);
 
