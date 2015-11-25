@@ -7,7 +7,7 @@ public class Player {
 
 	private final int intChoseDoorNum = 0;
 
-	/** ¼á³ÖÑ¡Ôñ */
+	/** åšæŒé€‰æ‹© */
 	public Door insistChosen(List<Door> chooseDoorLis) {
 		
 		Door door = chooseDoorLis.get(intChoseDoorNum);
@@ -15,7 +15,7 @@ public class Player {
 		return door;
 	}
 
-	/** ¸Ä±äÑ¡Ôñ£¬¸ÄÑ¡Èı¸öÃÅÖĞ×îºóÊ£ÏÂµÄÄÇ¸ö */
+	/** æ”¹å˜é€‰æ‹©ï¼Œæ”¹é€‰ä¸‰ä¸ªé—¨ä¸­æœ€åå‰©ä¸‹çš„é‚£ä¸ª */
 	public Door changeChosen(List<Door> chosenDoorLis, List<Door> chooseDoorLis) {
 
 		chooseDoorLis.removeAll(chosenDoorLis);
@@ -31,7 +31,7 @@ public class Player {
 		return door;
 	}
 
-	/** ÔÚ³ıÁËÖ÷³ÖÈË´ò¿ªµÄÃÅÖ®ÍâËæ»úÑ¡ÔñÒ»¸ö */
+	/** åœ¨é™¤äº†ä¸»æŒäººæ‰“å¼€çš„é—¨ä¹‹å¤–éšæœºé€‰æ‹©ä¸€ä¸ª */
 	public Door randomChoose(List<Door> chosenDoorLis, List<Door> chooseDoorLis) {
 
 		chooseDoorLis.removeAll(chosenDoorLis);
@@ -45,7 +45,7 @@ public class Player {
 		return door;
 	}
 
-	/** ÕÒ³öÑ¡ÊÖ×Ô¼º×î³õÑ¡ÔñµÄÄÇ¸öÃÅ */
+	/** æ‰¾å‡ºé€‰æ‰‹è‡ªå·±æœ€åˆé€‰æ‹©çš„é‚£ä¸ªé—¨ */
 	private Door findThePlayerChosen(List<Door> chooseDoorLis) {
 
 		Door door = new Door();

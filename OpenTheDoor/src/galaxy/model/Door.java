@@ -14,10 +14,10 @@ public class Door {
 
 	}
 
-	/** ÃÅ±àºÅ */
+	/** é—¨ç¼–å· */
 	private int intNum;
 
-	/** ÃÅºóÊÇ·ñÓĞ³µ */
+	/** é—¨åæ˜¯å¦æœ‰è½¦ */
 	private boolean isCar;
 
 	public int getIntNum() {

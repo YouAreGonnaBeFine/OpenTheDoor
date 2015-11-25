@@ -35,7 +35,7 @@ public class ChooseAction {
 		
         @SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);  
-        System.out.println("请选择方案：");
+        System.out.println("璇疯緭鍏ユ柟妗堬細");
         plan =  scanner.nextLine();  
 
 		for (int i = 0; i < sum; i++) {
@@ -68,7 +68,7 @@ public class ChooseAction {
 
 		}
 
-		System.out.println("选对了：" + right + "  选错了" + wrong);
+		System.out.println("閫夊浜嗭細" + right + " 閫夐敊浜嗭細" + wrong);
 		System.out.println((double) right / sum * 100 + "%");
 
 	}
