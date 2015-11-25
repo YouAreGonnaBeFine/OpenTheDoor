@@ -35,7 +35,7 @@ public class ChooseAction {
 		
         @SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);  
-        System.out.println("请输入方案：");
+        System.out.println("请输入方案： ");
         plan =  scanner.nextLine();  
 
 		for (int i = 0; i < sum; i++) {
